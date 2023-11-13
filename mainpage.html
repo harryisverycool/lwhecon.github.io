@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to Lamwoo Home Economics Website!</title>
+	<style>
+		body {
+			background-image: url("background.jpg");
+			background-repeat: no-repeat;
+			background-size: 1920px 1030px;
+		}
+		h1 {
+			text-align: center;
+			font-size: 36px;
+			color:#103f54;
+			font-family: "Meseo", serif;
+		}
+        h2 {
+			position: absolute;
+			bottom: 0;
+			font-size: 16px;
+			font-family: "Meseo", serif;
+		}
+        img {
+			display: block;
+			margin: auto;
+			width: 980px;
+			height: 600px;
+		}
+    
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+			display: flex; /* Add this line to make the menu items appear horizontally */
+			align-items: center; /* Add this line to center the text vertically */
+			justify-content: center; /* Add this line to center the menu horizontally */
+		}
+		li {
+			float: left;
+			display: inline-block;
+		}
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+    
+        li ul {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 100px;
+        }
+        li:hover ul {
+            display: block;
+        }
+        li ul li {
+            display: block;
+            text-align: left;
+            padding: 10px;
+        }
+        li ul li a {
+            color:white;
+            text-decoration:none;
+            display:block;
+        }
+
+        .contact {
+            margin-top: 50px; /* Adjust this value as needed */
+            text-align: center;
+        }
+
+		li {
+ 		 border-right: 1px solid white;
+		}
+
+		li:last-child {
+  		border-right: none;
+		}
+        
+	</style>
+</head>
+<body>
+	<h1>S.K.H. Lam Woo Memorial Secondary School <br>Home Economics Homepage</h1>
+
+	<!-- Navigation -->
+	<ul>
+		<li>
+			<a href="#">About</a>
+			<ul>
+				<li><a href="Panel Member.html">Panel Member</a></li>
+				<li><a href="objective.html">Objective</a></li>
+				<li><a href="Lesson Topics.html">Lesson Topic</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Activity Record</a>
+			<ul>
+				<li><a href="ar.html">2022-2023</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Prize Record</a>
+			<ul>
+				<li><a href="nod.html">2022-2023</a></li>
+			</ul>
+		</li>
+		  <li>
+            <a href="#">Student's Work</a>
+            <ul>
+                <li><a href="student work.html">2022-2023</a></li>
+            </ul>
+        </li>
+        <!-- Add the following code to add the "Old Webpage" menu item -->
+        <li><a href="https://lwhecon.wixsite.com/hecon">Old homepage</a></li>
+    <!-- Add more menu items as needed -->
+	</ul>
+
+    <!-- Photo -->
+	<img src="aabbcc.png" alt="Photo" width="980" height="600">
+
+    <!-- Contact Us -->
+	<div class="contact">
+        <p>If you have any questions or comments, please find Miss Mak.</p>
+    </div>
+	<h2>&copy; 2023 S.K.H. Lam Woo Memorial Secondary School Home Economics Department. All rights reserved.</h2>
+</body>
+</html>
